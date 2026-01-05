@@ -8,15 +8,6 @@ import type { Header } from '@/payload-types'
 
 import { Logo } from '@/components/Logo/Logo'
 import { HeaderNav } from './Nav'
-import {
-  Bracket,
-  Megamenu,
-  MobileNav,
-  Navbar,
-  Navbrand,
-  NavItem,
-  Navlink,
-} from '@thirdbracket/bracketui'
 
 interface HeaderClientProps {
   data: Header
