@@ -40,7 +40,7 @@ export const HighImpactHero: React.FC<Page['hero']> = ({ links, media, richText 
         {media && typeof media === 'object' && (
           <Media fill imgClassName="-z-10 object-cover" priority resource={media} />
         )}
-<div className="absolute pointer-events-none left-0 bottom-0 w-full h-full bg-gradient-to-t from-background via-transparent to-background" />
+<div className="absolute pointer-events-none left-0 bottom-0 w-full h-full bg-gradient-to-t from-white dark:from-black via-transparent dark:via-transparent to-white dark:to-black" />
       </div>
     </div>
   )
