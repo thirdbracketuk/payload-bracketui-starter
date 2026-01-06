@@ -31,7 +31,7 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ data }) => {
 
   return (
     <header
-      className=" sticky top-0 backdrop-blur-2xl  z-20    "
+      className=" sticky top-0   z-20 backdrop-blur-md   "
       {...(theme ? { 'data-theme': theme } : {})}
     >
       <div className="flex container   justify-between py-4  ">
